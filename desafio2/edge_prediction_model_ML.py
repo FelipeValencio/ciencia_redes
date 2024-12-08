@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, f1_score
 from haversine import haversine
 from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import StandardScaler
@@ -15,6 +15,7 @@ G = nx.read_gml("GraphMissingEdges.gml")
 
 # Load the categories
 categories = pd.read_csv("categories.csv")
+categories_dict = categories.set_index("CategoryId")["names"].to_dict()
 
 # Load edges to evaluate
 edges_to_evaluate = pd.read_csv("edgesToEvaluate.csv")
@@ -26,14 +27,25 @@ def calculate_distance(node1, node2):
     coord2 = (G.nodes[node2]["latitude"], G.nodes[node2]["longitude"])
     return haversine(coord1, coord2)
 
-
 # Feature Engineering
 def extract_features(node1, node2):
     features = {}
     features["distance"] = calculate_distance(node1, node2)
 
-    features["common_categories"] = len(
-        set(G.nodes[node1]["categories"]).intersection(set(G.nodes[node2]["categories"])))
+    # Decode the category IDs for each node
+    node1_categories = set(G.nodes[node1]["categories"].split(','))
+    node2_categories = set(G.nodes[node2]["categories"].split(','))
+
+    features["common_categories"] = len(node1_categories.intersection(node2_categories))
+
+    # Add amount of categories
+    features["categories_1"] = len(node1_categories)
+    features["categories_2"] = len(node2_categories)
+
+    # Add one hot encoding per category. If store contains bar, its "bar" = 1 and other categories = 0
+    for cat_id, cat_name in categories_dict.items():
+        features[f"cat_{cat_id}_1"] = 1 if str(cat_id) in node1_categories else 0
+        features[f"cat_{cat_id}_2"] = 1 if str(cat_id) in node2_categories else 0
 
     # Convert reviewCount from string to integer
     review_count_1 = int(G.nodes[node1]["reviewCount"])
@@ -89,7 +101,7 @@ models = {
     "Logistic Regression": LogisticRegression(random_state=42),
     "Random Forest": RandomForestClassifier(n_estimators=100, random_state=42),
     "Gradient Boosting": GradientBoostingClassifier(n_estimators=100, random_state=42),
-    "SVM": SVC(kernel='linear', random_state=42),
+    # "SVM": SVC(kernel='linear', random_state=42),
     "Neural Network": MLPClassifier(random_state=42, max_iter=300)
 }
 
@@ -97,7 +109,9 @@ for name, model in models.items():
     model.fit(X_train_scaled, y_train)
     y_pred = model.predict(X_test_scaled)
     accuracy = accuracy_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
     print(f"{name} Accuracy: {accuracy}")
+    print(f"{name} F1-score: {f1}")
 
 # Predict edges in edges_to_evaluate
 evaluation_data = []
@@ -112,6 +126,6 @@ predictions = models["Random Forest"].predict(evaluation_df_scaled)  # Choose th
 
 # Prepare submission
 edges_to_evaluate["link"] = predictions
-edges_to_evaluate[["linkID", "link"]].to_csv("submission.csv", index=False)
+edges_to_evaluate[["linkID", "link"]].to_csv("submission_ML.csv", index=False)
 
 ## Média de 0.72 de accuracy
