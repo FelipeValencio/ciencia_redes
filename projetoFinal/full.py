@@ -49,6 +49,8 @@ for filename in os.listdir(letras_folder):
         for lyric in lyrics_list:
             # Track mentions within a single song
             mentioned_in_song = set()
+
+            # Then, proceed with the usual word-based check for single-word aliases
             words = re.findall(r'\b[A-Z][a-z]*\b', lyric)
             for word in words:
                 if word in alias_to_primary:
