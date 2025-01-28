@@ -94,7 +94,7 @@ Benzino
 BewhY
 Bhad Bhabie
 Big Boi
-Big Daddy Kane; Kane
+Big Daddy Kane; Daddy Kane
 Big Ed
 Big Gipp
 Big Hawk
@@ -168,7 +168,6 @@ C-Bo
 C-Murder
 C-Note
 C-Rayz Walz
-Cadet
 Calboy
 Cam’ron
 Canibus
@@ -358,7 +357,7 @@ El-P
 Elephant Man
 Elzhi
 Emcee N.I.C.E.
-Eminem; Marshall Mathers; Marshall; Slim Shady; Shady; Slim
+Eminem; Marshall Mathers; Marshall; Slim Shady;
 Emtee
 Eric Biddines
 Erick Arc Elliott
@@ -893,7 +892,7 @@ Phyno
 Pimp C
 Pink Guy
 Planet Asia
-Playboi Carti; Carti
+Playboi Carti
 Plies
 PnB Rock
 PNC
@@ -1070,7 +1069,6 @@ Smitty
 Smino
 Smoke DZA
 Smokepurpp
-Smooth
 Smoothe da Hustler
 Snoop Dogg; Snoop
 Snootie Wild
@@ -1105,7 +1103,6 @@ Sticky Fingaz
 Stoka
 Stoupe the Enemy of Mankind
 Stormzy
-Stretch
 Styles P
 Suga
 Suga Free
@@ -1192,7 +1189,7 @@ Twisted Insane
 Ty Dolla Sign
 Tyga
 Tyler Joseph
-Tyler, The Creator; Tyler
+Tyler, The Creator
 Tyra Bolling
 U-God
 Ugly God
