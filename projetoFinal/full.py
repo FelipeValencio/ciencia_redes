@@ -33,17 +33,9 @@ for filename in os.listdir(letras_folder):
         with open(os.path.join(letras_folder, filename), 'r', encoding='utf-8') as file:
             data = json.load(file)
 
-        # Extract and clean lyrics
+        # Extract lyrics
         lyrics_list = [song['lyrics'] for song in data['songs']]
-        # lyrics = (" ".join(lyrics_list)
-        #               # .replace('\\', '')
-        #               # .replace('\n', ' ')
-        #               # .replace("\'", "'")
-        #               # .strip()
-        #           )
 
-        # Split lyrics into lines and find mentioned rappers
-        # lyrics_lines = lyrics.splitlines()
         rapper_mentions = defaultdict(int)
 
         for lyric in lyrics_list:

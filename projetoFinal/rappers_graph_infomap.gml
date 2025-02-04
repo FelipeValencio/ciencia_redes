@@ -3,767 +3,767 @@ graph [
   node [
     id 0
     label "Logic"
+    community 0
+    community 1
+    community 2
+    community 3
+    community 4
+    community 5
+    community 6
+    community 7
+    community 8
+    community 9
+    community 10
+    community 11
+    community 12
+    community 13
+    community 14
+    community 15
+    community 16
+    community 17
+    community 18
+    community 19
+    community 20
+    community 21
+    community 22
+    community 23
+    community 24
+    community 25
+    community 26
+    community 27
+    community 28
+    community 29
+    community 30
+    community 31
+    community 32
+    community 33
+    community 34
+    community 35
+    community 36
+    community 37
+    community 38
+    community 39
+    community 40
+    community 41
+    community 42
+    community 43
+    community 44
+    community 45
+    community 46
+    community 47
+    community 48
+    community 49
+    community 50
+    community 51
+    community 52
+    community 53
+    community 54
+    community 55
+    community 56
+    community 57
+    community 58
+    community 59
+    community 60
+    community 61
+    community 62
+    community 63
+    community 64
+    community 65
+    community 66
+    community 67
+    community 68
+    community 69
+    community 70
+    community 71
+    community 72
+    community 73
+    community 74
+    community 75
+    community 76
+    community 77
+    community 78
+    community 79
+    community 80
+    community 81
+    community 82
+    community 83
+    community 84
+    community 85
+    community 86
+    community 87
+    community 88
+    community 89
+    community 90
+    community 91
+    community 92
+    community 93
+    community 94
+    community 95
+    community 96
+    community 97
+    community 98
+    community 99
+    community 100
+    community 101
+    community 102
+    community 103
+    community 104
+    community 105
+    community 106
+    community 107
+    community 108
+    community 109
+    community 110
+    community 111
     community 112
+    community 113
+    community 114
+    community 115
+    community 116
+    community 117
+    community 118
+    community 119
+    community 120
+    community 121
+    community 122
+    community 123
+    community 124
+    community 125
+    community 126
+    community 127
+    community 128
+    community 129
+    community 130
+    community 131
+    community 132
+    community 133
+    community 134
+    community 135
+    community 136
+    community 137
+    community 138
+    community 139
+    community 140
+    community 141
+    community 142
+    community 143
+    community 144
+    community 145
+    community 146
+    community 147
+    community 148
+    community 149
+    community 150
+    community 151
+    community 152
   ]
   node [
     id 1
     label "Jay Z"
-    community 112
   ]
   node [
     id 2
     label "J. Cole"
-    community 17
   ]
   node [
     id 3
     label "Kid Cudi"
-    community 14
   ]
   node [
     id 4
     label "Kendrick Lamar"
-    community 112
   ]
   node [
     id 5
     label "Drake"
-    community 112
   ]
   node [
     id 6
     label "Nas"
-    community 112
   ]
   node [
     id 7
     label "J Dilla"
-    community 31
   ]
   node [
     id 8
     label "Wale"
-    community 105
   ]
   node [
     id 9
     label "A$AP Ferg"
-    community 43
   ]
   node [
     id 10
     label "Kanye West"
-    community 112
   ]
   node [
     id 11
     label "2Pac"
-    community 112
   ]
   node [
     id 12
     label "Wiz Khalifa"
-    community 0
   ]
   node [
     id 13
     label "Biggie"
-    community 112
   ]
   node [
     id 14
     label "A Tribe Called Quest"
-    community 26
   ]
   node [
     id 15
     label "Nujabes"
-    community 106
   ]
   node [
     id 16
     label "Timbaland"
-    community 47
   ]
   node [
     id 17
     label "Pusha T"
-    community 112
   ]
   node [
     id 18
     label "The Weeknd"
-    community 60
   ]
   node [
     id 19
     label "Lil Wayne"
-    community 112
   ]
   node [
     id 20
     label "Lazarus"
-    community 55
   ]
   node [
     id 21
     label "Andre 3000"
-    community 28
   ]
   node [
     id 22
     label "DJ Premier"
-    community 27
   ]
   node [
     id 23
     label "Canibus"
-    community 93
   ]
   node [
     id 24
     label "Nicki Minaj"
-    community 15
   ]
   node [
     id 25
     label "Lupe Fiasco"
-    community 112
   ]
   node [
     id 26
     label "Xzibit"
-    community 12
   ]
   node [
     id 27
     label "Eminem"
-    community 112
   ]
   node [
     id 28
     label "Future"
-    community 34
   ]
   node [
     id 29
     label "Scarface"
-    community 24
   ]
   node [
     id 30
     label "Huey"
-    community 7
   ]
   node [
     id 31
     label "Sole"
-    community 61
   ]
   node [
     id 32
     label "Ice Cube"
-    community 4
   ]
   node [
     id 33
     label "Chief Keef"
-    community 29
   ]
   node [
     id 34
     label "Denzel Curry"
-    community 112
   ]
   node [
     id 35
     label "Joyner Lucas"
-    community 62
   ]
   node [
     id 36
     label "Kelis"
-    community 37
   ]
   node [
     id 37
     label "Tyler, The Creator"
-    community 114
   ]
   node [
     id 38
     label "Preme"
-    community 33
   ]
   node [
     id 39
     label "DJ Khaled"
-    community 104
   ]
   node [
     id 40
     label "Jadakiss"
-    community 32
   ]
   node [
     id 41
     label "Megan Thee Stallion"
-    community 80
   ]
   node [
     id 42
     label "Usher"
-    community 20
   ]
   node [
     id 43
     label "Royce da 5 9"
-    community 22
   ]
   node [
     id 44
     label "Roscoe"
-    community 100
   ]
   node [
     id 45
     label "Hopsin"
-    community 113
   ]
   node [
     id 46
     label "Ludacris"
-    community 65
   ]
   node [
     id 47
     label "Scotty"
-    community 74
   ]
   node [
     id 48
     label "50 Cent"
-    community 116
   ]
   node [
     id 49
     label "Dr. Dre"
-    community 3
   ]
   node [
     id 50
     label "Snoop Dogg"
-    community 112
   ]
   node [
     id 51
     label "Busta Rhymes"
-    community 112
   ]
   node [
     id 52
     label "Treach"
-    community 79
   ]
   node [
     id 53
     label "Missy Elliott"
-    community 63
   ]
   node [
     id 54
     label "Kurupt"
-    community 8
   ]
   node [
     id 55
     label "Shyne"
-    community 38
   ]
   node [
     id 56
     label "A$AP Rocky"
-    community 46
   ]
   node [
     id 57
     label "Blu"
-    community 109
   ]
   node [
     id 58
     label "Loon"
-    community 115
   ]
   node [
     id 59
     label "Proof"
-    community 42
   ]
   node [
     id 60
     label "DJ Yella"
-    community 1
   ]
   node [
     id 61
     label "Eazy-E"
-    community 2
   ]
   node [
     id 62
     label "Rakim"
-    community 5
   ]
   node [
     id 63
     label "Fabolous"
-    community 6
   ]
   node [
     id 64
     label "Benzino"
-    community 89
   ]
   node [
     id 65
     label "21 Savage"
-    community 35
   ]
   node [
     id 66
     label "Redman"
-    community 75
   ]
   node [
     id 67
     label "Prodigy"
-    community 40
   ]
   node [
     id 68
     label "Birdman"
-    community 72
   ]
   node [
     id 69
     label "Akon"
-    community 18
   ]
   node [
     id 70
     label "Raekwon"
-    community 81
   ]
   node [
     id 71
     label "Conway the Machine"
-    community 90
   ]
   node [
     id 72
     label "Bizzy"
-    community 91
   ]
   node [
     id 73
     label "Saweetie"
-    community 92
   ]
   node [
     id 74
     label "Quavo"
-    community 66
   ]
   node [
     id 75
     label "Nelly"
-    community 94
   ]
   node [
     id 76
     label "Metro Boomin"
-    community 19
   ]
   node [
     id 77
     label "Pacewon"
-    community 95
   ]
   node [
     id 78
     label "Yelawolf"
-    community 96
   ]
   node [
     id 79
     label "Yukmouth"
-    community 97
   ]
   node [
     id 80
     label "Macklemore"
-    community 98
   ]
   node [
     id 81
     label "Method Man"
-    community 84
   ]
   node [
     id 82
     label "Trippie Redd"
-    community 99
   ]
   node [
     id 83
     label "Fredwreck"
-    community 9
   ]
   node [
     id 84
     label "Coolio"
-    community 10
   ]
   node [
     id 85
     label "Cassidy"
-    community 11
   ]
   node [
     id 86
     label "Foxx"
-    community 13
   ]
   node [
     id 87
     label "Battlecat"
-    community 82
   ]
   node [
     id 88
     label "Kokane"
-    community 83
   ]
   node [
     id 89
     label "Russ"
-    community 85
   ]
   node [
     id 90
     label "Maino"
-    community 86
   ]
   node [
     id 91
     label "Mystikal"
-    community 87
   ]
   node [
     id 92
     label "Mos Def"
-    community 112
   ]
   node [
     id 93
     label "Saigon"
-    community 58
   ]
   node [
     id 94
     label "Madlib"
-    community 59
   ]
   node [
     id 95
     label "Akinyele"
-    community 41
   ]
   node [
     id 96
     label "Ralo"
-    community 107
   ]
   node [
     id 97
     label "Tyga"
-    community 108
   ]
   node [
     id 98
     label "Fredo"
-    community 36
   ]
   node [
     id 99
     label "Nottz"
-    community 110
   ]
   node [
     id 100
     label "Desiigner"
-    community 48
   ]
   node [
     id 101
     label "Chamillionaire"
-    community 111
   ]
   node [
     id 102
     label "Antoinette"
-    community 102
   ]
   node [
     id 103
     label "Mase"
-    community 23
   ]
   node [
     id 104
     label "Kwame"
-    community 101
   ]
   node [
     id 105
     label "Twista"
-    community 56
   ]
   node [
     id 106
     label "Everlast"
-    community 51
   ]
   node [
     id 107
     label "Travis Scott"
-    community 120
   ]
   node [
     id 108
     label "Papoose"
-    community 77
   ]
   node [
     id 109
     label "Gunna"
-    community 16
   ]
   node [
     id 110
     label "Young Thug"
-    community 117
   ]
   node [
     id 111
     label "Quan"
-    community 45
   ]
   node [
     id 112
     label "Offset"
-    community 118
   ]
   node [
     id 113
     label "Benny The Butcher"
-    community 44
   ]
   node [
     id 114
     label "Fergie"
-    community 119
   ]
   node [
     id 115
     label "Rocko"
-    community 73
   ]
   node [
     id 116
     label "Suga"
-    community 76
   ]
   node [
     id 117
     label "Kastro"
-    community 88
   ]
   node [
     id 118
     label "Mobb Deep"
-    community 123
   ]
   node [
     id 119
     label "Nitty"
-    community 121
   ]
   node [
     id 120
     label "Havoc"
-    community 122
   ]
   node [
     id 121
     label "Trina"
-    community 21
   ]
   node [
     id 122
     label "Buckwild"
-    community 78
   ]
   node [
     id 123
     label "The Alchemist"
-    community 39
   ]
   node [
     id 124
     label "Cormega"
-    community 25
   ]
   node [
     id 125
     label "Joey Bada$$"
-    community 124
   ]
   node [
     id 126
     label "Isaiah Rashad"
-    community 69
   ]
   node [
     id 127
     label "Stezo"
-    community 30
   ]
   node [
     id 128
     label "JPEGMAFIA"
-    community 128
   ]
   node [
     id 129
     label "Freddie Gibbs"
-    community 125
   ]
   node [
     id 130
     label "Wax"
-    community 126
   ]
   node [
     id 131
     label "Awkwafina"
-    community 127
   ]
   node [
     id 132
     label "A$AP Yams"
-    community 49
   ]
   node [
     id 133
     label "Necro"
-    community 50
   ]
   node [
     id 134
     label "A$AP Nast"
-    community 52
   ]
   node [
     id 135
     label "Plies"
-    community 53
   ]
   node [
     id 136
     label "Omarion"
-    community 54
   ]
   node [
     id 137
     label "J.I.D"
-    community 133
   ]
   node [
     id 138
     label "Webbie"
-    community 129
   ]
   node [
     id 139
     label "Zaytoven"
-    community 130
   ]
   node [
     id 140
     label "Dolla"
-    community 131
   ]
   node [
     id 141
     label "Bas"
-    community 132
   ]
   node [
     id 142
     label "Big Sean"
-    community 135
   ]
   node [
     id 143
     label "DJ Mustard"
-    community 57
   ]
   node [
     id 144
     label "Smino"
-    community 134
   ]
   node [
     id 145
     label "Amil"
-    community 103
   ]
   node [
     id 146
     label "Consequence"
-    community 64
   ]
   node [
     id 147
     label "Serengeti"
-    community 68
   ]
   node [
     id 148
     label "Rapsody"
-    community 70
   ]
   node [
     id 149
     label "Lecrae"
-    community 71
   ]
   node [
     id 150
     label "ScHoolboy Q"
-    community 136
   ]
   node [
     id 151
     label "Cappadonna"
-    community 67
   ]
   node [
     id 152
     label "Vince Staples"
-    community 137
   ]
   edge [
     source 0
