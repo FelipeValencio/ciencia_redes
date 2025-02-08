@@ -67,6 +67,6 @@ for filename in os.listdir(letras_folder):
                 G.add_edge(artist_name, rapper_primary_name, weight=count)
 
 # Export the graph to a GML file
-nx.write_gml(G, "rappers_graph.gml")
+nx.write_gml(G, "graphs_output/rappers_graph.gml")
 
 print("Graph has been exported to 'rappers_graph.gml'")
